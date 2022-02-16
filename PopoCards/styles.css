@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Eurostile";
+    src: url(fonts/EurostileLTStd.eot);
+    /*IE*/
+    src: local("Eurostile"), url(fonts/EurostileLTStd.otf) format("opentype");
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 100vh;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(blue, red);
+}
+
+.page-title {
+    color: white;
+    border: black;
+    font-family: Eurostile;
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+}
+
+.game-info {
+    color: indigo;
+    font-size: 4em;
+    font-family: Eurostile;
+}
+
+.card {
+    background-color: black;
+    height: 175px;
+    width: 125px;
+}
